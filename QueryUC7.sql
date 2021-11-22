@@ -39,7 +39,8 @@ alter table employee_payroll add phone bigint;
 alter table employee_payroll add  address varchar(250) null null default 'solapur';
 alter table employee_payroll add department varchar(45) not null default 'HR';
 
-
+-----------------------UC9--------------------
+alter table employee_payroll add basic_pay float, deduction bigint ,taxeable_pay float,income_tax float,net_pay float; 
 
 
 
