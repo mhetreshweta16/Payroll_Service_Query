@@ -34,6 +34,10 @@ select min(salary) as Minimum from employee_payroll;
 select count(salary) as TotalEmployee from employee_payroll;
 select count(salary) as TotalEmployee from employee_payroll group by gender;
 
+--------------------UC8---------------------------
+alter table employee_payroll add phone bigint;
+alter table employee_payroll add  address varchar(250) null null default 'solapur';
+alter table employee_payroll add department varchar(45) not null default 'HR';
 
 
 
